@@ -14,6 +14,8 @@
 		57710A1525F7D9C700019CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57710A0025F7D9C700019CF2 /* Assets.xcassets */; };
 		57710A1625F7D9C700019CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57710A0025F7D9C700019CF2 /* Assets.xcassets */; };
 		57710A2425F7DAB100019CF2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 57710A2325F7DAB100019CF2 /* locations.json */; };
+		57710A2A25F7DB2100019CF2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57710A2925F7DB2100019CF2 /* Location.swift */; };
+		57710A2B25F7DB2100019CF2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57710A2925F7DB2100019CF2 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		57710A0F25F7D9C700019CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57710A1025F7D9C700019CF2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		57710A2325F7DAB100019CF2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		57710A2925F7DB2100019CF2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				57710A2325F7DAB100019CF2 /* locations.json */,
+				57710A2925F7DB2100019CF2 /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57710A1325F7D9C700019CF2 /* ContentView.swift in Sources */,
+				57710A2A25F7DB2100019CF2 /* Location.swift in Sources */,
 				57710A1125F7D9C700019CF2 /* LakefieldMap1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57710A1425F7D9C700019CF2 /* ContentView.swift in Sources */,
+				57710A2B25F7DB2100019CF2 /* Location.swift in Sources */,
 				57710A1225F7D9C700019CF2 /* LakefieldMap1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

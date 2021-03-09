@@ -21,7 +21,7 @@ static let example = Location(id: 1,
                               description: "Lakefield College School is a private day and boarding school located north of the village of Lakefield, Ontario.",
                               latitude: 44.43948652171136,
                               longitude: -78.26544785999143,
-                              heroPicture: "highlands"
+                              heroPicture: "LakefieldCollegeSchool"
                              )
 }
                               

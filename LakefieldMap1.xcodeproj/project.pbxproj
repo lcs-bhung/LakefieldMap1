@@ -13,6 +13,7 @@
 		57710A1425F7D9C700019CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577109FF25F7D9C300019CF2 /* ContentView.swift */; };
 		57710A1525F7D9C700019CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57710A0025F7D9C700019CF2 /* Assets.xcassets */; };
 		57710A1625F7D9C700019CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57710A0025F7D9C700019CF2 /* Assets.xcassets */; };
+		57710A2425F7DAB100019CF2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 57710A2325F7DAB100019CF2 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57710A0D25F7D9C700019CF2 /* LakefieldMap1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LakefieldMap1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57710A0F25F7D9C700019CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57710A1025F7D9C700019CF2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		57710A2325F7DAB100019CF2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				577109FE25F7D9C300019CF2 /* LakefieldMap1App.swift */,
+				57710A2225F7DA2E00019CF2 /* Model */,
+				57710A2125F7DA2700019CF2 /* Views */,
 				577109FF25F7D9C300019CF2 /* ContentView.swift */,
 				57710A0025F7D9C700019CF2 /* Assets.xcassets */,
 			);
@@ -88,6 +92,21 @@
 				57710A1025F7D9C700019CF2 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		57710A2125F7DA2700019CF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57710A2225F7DA2E00019CF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57710A2325F7DAB100019CF2 /* locations.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57710A2425F7DAB100019CF2 /* locations.json in Resources */,
 				57710A1525F7D9C700019CF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

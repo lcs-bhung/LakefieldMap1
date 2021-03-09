@@ -27,4 +27,6 @@ class LocationStore: ObservableObject {
     
 }
 
+var testStore = LocationStore()
+
 

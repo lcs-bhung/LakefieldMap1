@@ -20,6 +20,8 @@
 		57710A3925F7DF7F00019CF2 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57710A3725F7DF7F00019CF2 /* LocationStore.swift */; };
 		57710A3D25F7E13400019CF2 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57710A3C25F7E13400019CF2 /* LocationsList.swift */; };
 		57710A3E25F7E13400019CF2 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57710A3C25F7E13400019CF2 /* LocationsList.swift */; };
+		57A7C56825F931C000C49FA8 /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7C56725F931C000C49FA8 /* WorldMap.swift */; };
+		57A7C56925F931C000C49FA8 /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7C56725F931C000C49FA8 /* WorldMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,7 @@
 		57710A2E25F7DBE100019CF2 /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		57710A3725F7DF7F00019CF2 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		57710A3C25F7E13400019CF2 /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		57A7C56725F931C000C49FA8 /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 			children = (
 				57710A2E25F7DBE100019CF2 /* LocationDetail.swift */,
 				57710A3C25F7E13400019CF2 /* LocationsList.swift */,
+				57A7C56725F931C000C49FA8 /* WorldMap.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57710A3825F7DF7F00019CF2 /* LocationStore.swift in Sources */,
+				57A7C56825F931C000C49FA8 /* WorldMap.swift in Sources */,
 				57710A2A25F7DB2100019CF2 /* Location.swift in Sources */,
 				57710A3D25F7E13400019CF2 /* LocationsList.swift in Sources */,
 				57710A1125F7D9C700019CF2 /* LakefieldMap1App.swift in Sources */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57710A3925F7DF7F00019CF2 /* LocationStore.swift in Sources */,
+				57A7C56925F931C000C49FA8 /* WorldMap.swift in Sources */,
 				57710A2B25F7DB2100019CF2 /* Location.swift in Sources */,
 				57710A3E25F7E13400019CF2 /* LocationsList.swift in Sources */,
 				57710A1225F7D9C700019CF2 /* LakefieldMap1App.swift in Sources */,

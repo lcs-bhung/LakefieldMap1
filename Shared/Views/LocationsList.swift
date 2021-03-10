@@ -12,6 +12,7 @@ struct LocationsList: View {
     @ObservedObject var store: LocationStore
     
     var body: some View {
+        
         List(store.places) { location in
          
             //Create a navigation link to the detail view
@@ -23,7 +24,7 @@ struct LocationsList: View {
                             .scaledToFit()
                             .frame(width: 44, height: 44)
                         
-                        VStack(alignment: .leading) {
+                        HStack {
                             Text(location.name)
                                 .font(.subheadline)
                              

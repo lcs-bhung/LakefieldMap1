@@ -30,15 +30,19 @@ struct LocationsList: View {
                         }
                     }
                 }
-            
-        navigationTitle("Locations")
+            navigationTitle("Locations")
+        
         }
     }
+        
 }
 
 
 struct LocationsList_Previews: PreviewProvider {
     static var previews: some View {
-        LocationsList(store: testStore)
+        NavigationView{
+            
+            LocationsList(store: testStore)
+        }
     }
 }

@@ -41,9 +41,8 @@ struct LocationsList: View {
 
 struct LocationsList_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView{
             
             LocationsList(store: testStore)
-        }
+        
     }
 }

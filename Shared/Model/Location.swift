@@ -14,6 +14,7 @@ struct Location: Decodable, Identifiable {
     let latitude: Double
     let longitude: Double
     let heroPicture: String
+    let logo: String
 
 
 static let example = Location(id: 1,
@@ -21,7 +22,8 @@ static let example = Location(id: 1,
                               description: "Lakefield College School is a private day and boarding school located north of the village of Lakefield, Ontario.",
                               latitude: 44.43948652171136,
                               longitude: -78.26544785999143,
-                              heroPicture: "LakefieldCollegeSchool"
+                              heroPicture: "LakefieldCollegeSchool",
+                              logo: "LakefieldCollegeSchoolLogo"
                              )
 }
                               

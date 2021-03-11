@@ -19,7 +19,7 @@ struct LocationsList: View {
             //example of abstraction into action
             NavigationLink(destination: LocationDetail(location: location)){
                     HStack{
-                        Image(location.heroPicture)
+                        Image(location.logo)
                             .resizable()
                             .scaledToFit()
                             .frame(width: 44, height: 44)

@@ -21,11 +21,10 @@ struct LocationDetail: View {
                 
             Spacer()
             
-            HStack{
                 
                 Text(location.description)
                     .padding(.horizontal)
-            }
+            
             
     }
         

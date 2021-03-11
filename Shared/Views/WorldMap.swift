@@ -26,10 +26,10 @@ struct WorldMap: View {
                 
                 
                 NavigationLink(destination: LocationDetail(location: location)){
-                    Image(location.heroPicture)
+                    Image(location.logo)
                         .resizable()
                         .cornerRadius(10)
-                        .frame(width:80, height: 40)
+                        .frame(width:70, height: 35)
                         .shadow(radius: 3)
                 }
                

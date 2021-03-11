@@ -25,14 +25,14 @@ struct LakefieldMap1App: App {
                 Image(systemName: "list.bullet")
                 Text("Locations")
             }
-//            
-//                NavigationView{
-//                    WorldMap(store: store)
-//                }
-//                .tabItem{
-//                    Image(systemName: "map")
-//                    Text("Map")
-//                }
+            
+                NavigationView{
+                    WorldMap(store: store)
+                }
+                .tabItem{
+                    Image(systemName: "map")
+                    Text("Map")
+                }
                 
     
             }

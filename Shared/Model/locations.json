@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Foodland",
-        "description": "",
+        "description": "Foodland is the local Superparket in the town of Lakefield. Like the name suggests it's the land where you can buy food.",
         "latitude": 44.42214414680086,
         "longitude": -78.27211082548475,
         "heroPicture": "Foodland1",
@@ -19,7 +19,7 @@
     {
         "id": 3,
         "name": "Canoe and Paddle",
-        "description": "",
+        "description": "Established in 2014, The Canoe & Paddle is an English pub and restaurant located in the historic Hamblin's building beside the river in the beautiful village of Lakefield, Ontario. We specialize in freshly made classic pub fare, with Ontario craft beer, top quality local music and amazing daily specials and events. Our dedicated staff and friendly service ensures everyone feels like part of the Exton family!",
         "latitude": 44.4224123357429,
         "longitude": -78.27329636170602,
         "heroPicture": "canoeAndPaddle",
@@ -27,7 +27,7 @@
     {
         "id": 4,
         "name": "Tim Hortorns",
-        "description": "",
+        "description": "Everyone knows what Tims is at this point",
         "latitude": 44.428622481004375,
         "longitude": -78.26848984317554,
         "heroPicture": "timHortorns",

@@ -31,7 +31,7 @@ struct LocationsList: View {
                         }
                     }
                 }
-            navigationTitle("Locations")
+            .navigationTitle("Locations")
         
         }
     }

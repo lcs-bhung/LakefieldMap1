@@ -22,6 +22,8 @@
 		57710A3E25F7E13400019CF2 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57710A3C25F7E13400019CF2 /* LocationsList.swift */; };
 		57A7C56825F931C000C49FA8 /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7C56725F931C000C49FA8 /* WorldMap.swift */; };
 		57A7C56925F931C000C49FA8 /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7C56725F931C000C49FA8 /* WorldMap.swift */; };
+		57D4397825FFE931006C5A0B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4397725FFE931006C5A0B /* SearchBarView.swift */; };
+		57D4397925FFE931006C5A0B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4397725FFE931006C5A0B /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		57710A3725F7DF7F00019CF2 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		57710A3C25F7E13400019CF2 /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
 		57A7C56725F931C000C49FA8 /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
+		57D4397725FFE931006C5A0B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 				57710A2E25F7DBE100019CF2 /* LocationDetail.swift */,
 				57710A3C25F7E13400019CF2 /* LocationsList.swift */,
 				57A7C56725F931C000C49FA8 /* WorldMap.swift */,
+				57D4397725FFE931006C5A0B /* SearchBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D4397825FFE931006C5A0B /* SearchBarView.swift in Sources */,
 				57710A3825F7DF7F00019CF2 /* LocationStore.swift in Sources */,
 				57A7C56825F931C000C49FA8 /* WorldMap.swift in Sources */,
 				57710A2A25F7DB2100019CF2 /* Location.swift in Sources */,
@@ -236,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D4397925FFE931006C5A0B /* SearchBarView.swift in Sources */,
 				57710A3925F7DF7F00019CF2 /* LocationStore.swift in Sources */,
 				57A7C56925F931C000C49FA8 /* WorldMap.swift in Sources */,
 				57710A2B25F7DB2100019CF2 /* Location.swift in Sources */,

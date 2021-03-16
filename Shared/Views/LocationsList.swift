@@ -15,72 +15,50 @@ struct LocationsList: View {
     
     var body: some View {
         
-//        NavigationView{
+        
+        
+        VStack{
             
-            VStack{
-                
-                //Include the search bar view
-                
-                SearchBarView(text: $searchText)
+            //Include the search bar view
             
-        List {
-                    ForEach(store.places.filter({ filter in
-                        if !searchText.isEmpty {
-                            return
-                                filter.name.lowercased().contains(searchText.lowercased())
-                        } else {
-                            return true
-                        }
-                    })){
-                        location in
-                        NavigationLink(destination: LocationDetail(location: location)){
-                                            HStack{
-                                                Image(location.logo)
-                                                    .resizable()
-                                                    .scaledToFit()
-                                                    .frame(width: 44, height: 44)
-                        
-                                                HStack {
-                                                    Text(location.name)
-                                                        .font(.subheadline)
-                        
-                                            }
-                    }
+            SearchBarView(text: $searchText)
             
-    //        List(store.places) { location in
-    //
-    //            //Create a navigation link to the detail view
-    //            //example of abstraction into action
-    //            NavigationLink(destination: LocationDetail(location: location)){
-    //                    HStack{
-    //                        Image(location.logo)
-    //                            .resizable()
-    //                            .scaledToFit()
-    //                            .frame(width: 44, height: 44)
-    //
-    //                        HStack {
-    //                            Text(location.name)
-    //                                .font(.subheadline)
-    //
-    //                    }
-    //                }
-    //            }
-    //        }
-            
-        }
-                
-    //}
-            .navigationTitle("Locations")
+            List {
+                ForEach(store.places.filter({ filter in
+                    if !searchText.isEmpty {
+                        return
+                            filter.name.lowercased().contains(searchText.lowercased())
+                    } else {
+                        return true
                     }
                 }
-
-}
-//struct LocationsList_Previews: PreviewProvider {
-//    static var previews: some View {
-//
-//            LocationsList(store: testStore)
-//
-//    }
-}
+                )) {
+                    location in
+                    NavigationLink(destination: LocationDetail(location: location)){
+                        HStack{
+                            Image(location.logo)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 44, height: 44)
+                            
+                            HStack {
+                                Text(location.name)
+                                    .font(.subheadline)
+                                
+                            }
+                        }
+                        
+                        
+                        
+                    }
+                    
+                    
+                    .navigationTitle("Locations")
+                }
+            }
+            
+        }
+        
+    }
     
 }

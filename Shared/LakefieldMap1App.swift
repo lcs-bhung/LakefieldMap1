@@ -13,6 +13,7 @@ struct LakefieldMap1App: App {
     @StateObject var store = LocationStore()
     
     var body: some Scene {
+        
         WindowGroup {
             
             TabView{
@@ -37,5 +38,8 @@ struct LakefieldMap1App: App {
     
             }
         }
+        
+        
+        
     }
 }

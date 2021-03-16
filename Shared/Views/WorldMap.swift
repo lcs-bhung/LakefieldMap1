@@ -29,7 +29,7 @@ struct WorldMap: View {
                     Image(location.logo)
                         .resizable()
                         .cornerRadius(10)
-                        .frame(width:70, height: 35)
+                        .frame(width:60, height: 30)
                         .shadow(radius: 3)
                 }
                

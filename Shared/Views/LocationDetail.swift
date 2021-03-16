@@ -11,6 +11,7 @@ struct LocationDetail: View {
     
     let location: Location
     
+    
     var body: some View {
          
         ScrollView{
@@ -30,6 +31,8 @@ struct LocationDetail: View {
         
         .navigationTitle(location.name)
         .padding(.horizontal)
+        .font(.subheadline)
+        
     }
 
 struct LocationDetail_Previews: PreviewProvider {

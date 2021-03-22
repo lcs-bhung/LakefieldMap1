@@ -5,6 +5,10 @@
 //  Created by Branton Hung on 2021-03-15.
 //
 
+
+//The search bar view was created by Russel Gordon all credit goes to him
+
+
 import SwiftUI
 
 struct SearchBarView: View {

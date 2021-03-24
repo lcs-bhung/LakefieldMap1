@@ -13,30 +13,17 @@ struct LocationsList: View {
     
     @ObservedObject var store: LocationStore
     
-    func filteredLocations(with searchText: String, locations: [Location] ) -> [Location] {
-        
-        var locationss: [Location] = []
-        
-        if  searchText.isEmpty {
-            return locations
-        } else {
-            for location in locations {
-                if location.name.contains(searchText) {
-                    locationss.append(location)
-                }
-            }
-          return locationss
-        }
-        
-    }
+    
     
     var body: some View {
+        
+ 
         
         VStack{
         
             SearchBarView(text: $searchText)
             
-        List(store.places) { location in
+            List(filteredLocations(with: searchText, locations: store.places)) { location in
               
                  //Create a navigation link to the detail view
                  //example of abstraction into action

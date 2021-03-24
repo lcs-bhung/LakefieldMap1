@@ -29,4 +29,19 @@ class LocationStore: ObservableObject {
 
 var testStore = LocationStore()
 
-
+func filteredLocations(with searchText: String, locations: [Location] ) -> [Location] {
+    
+    var locationss: [Location] = []
+    
+    if  searchText.isEmpty {
+        return locations
+    } else {
+        for location in locations {
+            if location.name.contains(searchText) {
+                locationss.append(location)
+            }
+        }
+      return locationss
+    }
+    
+}
